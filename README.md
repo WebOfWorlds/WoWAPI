@@ -58,13 +58,13 @@ IANA [Registert](https://www.iana.org/assignments/media-types/media-types.xhtml#
 
 ## Open Spataial World API
 
-| Name | Liscene | Level | Format |
-| --- | --- | --- | --- | 
-| x3domWorld | Free | 5  | gltf-binary, gltf+json, x3d+xml |
-| [threedy.io](https://www.threedy.io) | Commercial | 5 | e57, gltf-binary, gltf+json, JT, step, step+xml, step+zip, step-xml+zip, step-xml+zip, vnd.usda, vnd.usdz+zip, x3d-vrml, x3d+fastinfoset, x3d+xml, las |
-| HTMLModeWrapper | Free | 3  | vnd.usdz+zip |
-| UnrealWrapper | Free | 2 | 
-| UnityWrapper | Free | 2 | 
+| Name | Liscene | Level | Asset Reference | Structure Provisioning |  
+| --- | --- | --- | --- | --- | 
+| x3domWorld | Free | 5  | gltf-binary, gltf+json, x3d+xml | x3d+xml |
+| [threedy.io](https://www.threedy.io) | Commercial | 5 | e57, gltf-binary, gltf+json, JT, step, step+xml, step+zip, step-xml+zip, step-xml+zip, vnd.usda, vnd.usdz+zip, x3d-vrml, x3d+fastinfoset, x3d+xml, las | step+xml, x3d-vrml, x3d-vrml 
+| HTMLModeWrapper | Free | 3  | vnd.usdz+zip | |
+| UnrealWrapper | Free | 2 | |
+| UnityWrapper | Free | 2 | |
 
 ## Open Space Asset API
 
@@ -77,8 +77,8 @@ IANA [Registert](https://www.iana.org/assignments/media-types/media-types.xhtml#
 
 | Name | Endpoint | API Level |
 | --- | --- | --- |
-| hello world | [testWorld.OpenSpatialWorld.io](https://testWorld.OpenSpatialWorld.io) | 3 | 
-| open portal | [openPortal.OpenSpatialWorld.io](https://testWorld.OpenSpatialWorld.io) | 5 | 
+| hello world | [testWorld.WebOfWorlds.io](https://testWorld.OpenSpatialWorld.io) | 3 | 
+| open portal | [openPortal.WebOfWorlds.io](https://testWorld.OpenSpatialWorld.io) | 5 | 
 | threedy industrial Metaverse Use-Case | [threedy.space/msf/60394sdf6/api/osw/v1](http://threedy.space/msf/60394sdf6/api/osw/v1) | 5 | 
 
 # Standardisation
