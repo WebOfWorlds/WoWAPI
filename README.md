@@ -56,7 +56,7 @@ IANA [Registert](https://www.iana.org/assignments/media-types/media-types.xhtml#
 
 # Implementations
 
-## Open Spataial World API
+## Open Spatial World API
 
 | Name | Liscene | Level | Asset Reference | Structure Provisioning |  
 | --- | --- | --- | --- | --- | 
@@ -66,7 +66,7 @@ IANA [Registert](https://www.iana.org/assignments/media-types/media-types.xhtml#
 | UnrealWrapper | Free | 2 | |
 | UnityWrapper | Free | 2 | |
 
-## Open Space Asset API
+## Open Spatial Asset API
 
 | Name | Liscene | Format | 
 | --- | --- | --- |
