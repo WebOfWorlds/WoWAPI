@@ -1,1 +1,1 @@
-# OpenAPI specs and json shema 
+# OpenAPI specs and json schema 
