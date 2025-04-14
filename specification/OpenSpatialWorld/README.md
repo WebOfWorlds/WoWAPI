@@ -1,5 +1,11 @@
 # World API
 
+![objects](../figures/objects.svg)
+
+## OpenAPI Spec
+
+## API Level
+
 | API | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 |
 | --- | --- | --- | --- | --- | ---  |
 | webApp access | single app | multi app | multi app | multi app | multi app  |
