@@ -1,4 +1,4 @@
-# World API
+# Spatial World Provisioning
 
 ![objects](../figures/objects.svg)
 
