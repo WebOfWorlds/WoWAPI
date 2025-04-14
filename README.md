@@ -10,7 +10,7 @@ The Core Introduction [Core Introduction](https://metaverse-standards.org/#slide
 
 A [MSF 3D Web Interoperability WG](https://metaverse-standards.org/domain-groups/3d-web-interoperability/)
 
-![Object Relation](https://docs.google.com/drawings/d/e/2PACX-1vTG1EXU74meLI0UUILTULvmpM-oehs0hFiD4C2I8upnv_T8wRk-C2QPEcWdnYt4jvWAL-s7JjNr4iJv/pub?w=941&h=478)
+![Web Of Worlds](specification/figures/wow.svg)
 
 # API Proposals
 
