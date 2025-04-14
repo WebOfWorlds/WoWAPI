@@ -22,7 +22,7 @@ A [MSF 3D Web Interoperability WG](https://metaverse-standards.org/domain-groups
 
 ## Open Spatial Asset API
 
-[OpenSpatialAsset API](specification/OpenAssetWorld)
+[OpenSpatialAsset API](specification/OpenSpatialAsset)
 
 # Implementations
 
