@@ -49,6 +49,6 @@ A [MSF 3D Web Interoperability WG](https://metaverse-standards.org/domain-groups
 | --- | --- | --- |
 | hello world | [testWorld.WebOfWorlds.io](https://testWorld.OpenSpatialWorld.io) | 3 | 
 | open portal | [openPortal.WebOfWorlds.io](https://testWorld.OpenSpatialWorld.io) | 5 | 
-| threedy industrial Metaverse Use-Case | [threedy.space/msf/60394sdf6/api/osw/v1](http://threedy.space/msf/60394sdf6/api/osw/v1) | 5 | 
+| threedy industrial Metaverse Use-Case | [threedy.space/msf/60394sdf6](http://threedy.space/ms/60394sdf6) | 5 | 
 
 # Standardisation
