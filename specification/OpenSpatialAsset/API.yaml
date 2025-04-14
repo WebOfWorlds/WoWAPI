@@ -33,7 +33,7 @@ paths:
         '404':
           description: Not Found. Element does not exist or user does not have authorization to know whether this resource exists or not.
     get:
-      description: Used to download resources which instant3Dhub can then use to build optimized 3D representations.
+      description: Used to negotiate and fetch a data instance as resources.
       tags:
         - Asset content provisioning
       responses:
