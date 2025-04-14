@@ -1,5 +1,7 @@
 # Spatial Asset Provisioning 
 
+![objects](../figures/objects.svg)
+
 ## OpenAPI spec 
 
 [API](API.yaml) 
