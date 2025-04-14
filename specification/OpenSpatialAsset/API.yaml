@@ -3,8 +3,7 @@ info:
   title: OpenSpatialAsset API
   contact:
     name: OpenSpatailWorld  
-    url: https://www.threedy.io/
-    email: contact@threedy.io
+    url: https://www.WebOfWorlds.io/
   version: '0.0.1'
 
 servers:
