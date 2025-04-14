@@ -1,0 +1,202 @@
+openapi: '3.0.3'
+info:
+  title: OpenSpatailWorld API
+  description: "The solution allows you to use a web app to enter the associated spatial experience and read and modify aspects of the world. 
+    The endpoint provides a single discrete world with some aspects of spatial data management. The main purpose is to join, connect and share the spatial world."
+  version: '0.0.1'
+
+
+servers:
+  - url: http://test.openspatialworld.io
+    description: static test server with test asset references 
+  - url: http://openPortal.openSpatialWolrd.io
+    description: dynamic server with dynamic asset refernces
+
+paths:
+  /world:
+    get:
+      summary: Returns a World status as a single data state 
+      responses:
+        "200": # status code
+          description: "world summary"
+          content:
+            application/json:             
+              schema:
+                $ref: "#/components/schemas/World"
+  /app/id:
+    get:
+      summary: Delivers an interactive and shared spatial experence in an standard User Agent  
+      responses:
+        "200": # status code
+          description: "world summary"
+          content:
+            text/html:    
+              example: string
+  /user/id:
+    get:
+      summary: Returns a User status  
+      responses:
+        "200": # status code
+          description: "world summary"
+          content:
+            application/json:             
+              schema:
+                $ref: "#/components/schemas/User"
+
+  /view/id:
+    get:
+      summary: Returns a Viewpoint  
+      responses:
+        "200": # status code
+          description: "world summary"
+          content:
+            application/json:             
+              schema:
+                $ref: "#/components/schemas/view"
+  /portal/id:
+    get:
+      summary: Returns a Portal 
+      responses:
+        "200": # status code
+          description: "world summary"
+          content:
+            application/json:             
+              schema:
+                $ref: "#/components/schemas/portal"                
+  /scene/node/id:
+    get:
+      summary: Returns a World status as a single data state 
+      responses:
+        "200": # status code
+          description: "world summary"
+          content:
+            application/json:             
+              schema:
+                $ref: "#/components/schemas/Node"    
+            model/jt:
+              schemas:  
+                binary
+  
+components:
+  schemas:
+    World:
+      type: object
+      properties:
+
+        content:
+          type: object
+          properties: 
+            label:
+              type: string
+            age_restriction:
+              type: number
+            license:
+              type: string
+            cost: 
+              type: string 
+            version: 
+              type: number 
+            duration:
+              type: number 
+            
+            
+        presence:
+          type: object
+          properties:
+            avatar:
+              type: string
+            navigation:
+              type: string
+            gravity:
+              type: string
+
+
+        technology:
+          type: object
+          properties:
+            webXR-immersive:
+              type: string
+              description: "WebXR session profile"
+            runtime:
+                type: string
+                description: "Web framework or gameengine used (e.g. Unreal or Unity3D)"
+        users:
+          type: object
+          properties:
+            active_user_count:
+              type: integer
+              description: "Number of active"
+              default: 1
+            total_user_count:
+                type: integer
+                description: "Total number of user with unique ID"
+                default: 1
+        views:
+          type: object
+          properties:
+            view_count:
+                type: integer
+                description: "Number of avalable views with unique ID"
+                default: 1
+        portals:
+          type: object
+          properties:
+            portal_count:
+              type: integer
+              description: "Number of available portal with unique ID"
+              default: 1
+
+    User: 
+      type: object
+      properties:
+
+        id: 
+          type: number
+
+    View: 
+      type: object
+      properties:
+      
+        id: 
+          type: number
+
+    Portal: 
+      type: object
+      properties:
+            
+        id: 
+          type: number
+
+    Node: 
+      type: object
+      properties:
+                  
+        id: 
+          type: number
+      
+                       
+          
+
+#        properties:
+#              active_user_count:
+#              type: integer
+#              description: "Number of active user while requesting"
+#              default: 1
+
+#        uri:
+#          type: string
+#          description: "URL or URN of the resource to prepare."
+
+
+
+#  /webApp:
+#    get:
+
+#  /scene
+#    get:
+
+
+
+  
+      
+
