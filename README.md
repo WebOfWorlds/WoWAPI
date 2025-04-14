@@ -14,8 +14,6 @@ A [MSF 3D Web Interoperability WG](https://metaverse-standards.org/domain-groups
 
 # API Proposals
 
-![Object Relation](specification/figures/objects.svg)
-
 ## Open Spatial World API
 
 
