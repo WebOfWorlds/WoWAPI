@@ -1,6 +1,6 @@
 # Hello, Web Of Worlds !
 
-Building a open, adaptive and connected Metaverse on modern web standards and feature :rocket: . 
+Building a open, adaptive and connected Metaverse on modern web standards and features :rocket: . 
 
 # Foundation  
 
