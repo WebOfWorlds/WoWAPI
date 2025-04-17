@@ -6,7 +6,7 @@
 
 [API](API.yaml) 
 
-## IANA [Registert](https://www.iana.org/assignments/media-types/media-types.xhtml#model) Model Encoding
+## IANA [Register](https://www.iana.org/assignments/media-types/media-types.xhtml#model) Model Encoding
 
 | Name | [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) | In domain Links |
 | --- | --- | --- |
