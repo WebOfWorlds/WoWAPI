@@ -8,10 +8,11 @@ The Core Introduction [Core Introduction](https://metaverse-standards.org/#slide
 
 > The metaverse combines the **connectivity of the Web** with the **immersiveness** of **spatial computing**
 
-A [MSF 3D Web Interoperability WG](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
+
+The [MSF 3D Web Interoperability WG](https://metaverse-standards.org/domain-groups/3d-web-interoperability/)
 
 
-A [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/domain-groups/3d-web-interoperability/)
+A [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
 
 
 ![Web Of Worlds](specification/figures/wow.svg)
