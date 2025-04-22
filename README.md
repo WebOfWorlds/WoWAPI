@@ -1,6 +1,6 @@
 # Hello, Web Of Worlds !
 
-Building a open, adaptive and connected Metaverse on modern web standards and features :rocket: . 
+Building a open, adaptive and connected Metaverse on modern web standards and features :rocket:. 
 
 # Foundation  
 
@@ -22,24 +22,24 @@ This project to link virtual worlds highlights a compelling analogy between the 
 
 We envision the “Web of Worlds” to be build on the current web infrastructure and support the following core requirements:
 
-1. Unified Addressing System
+### Unified Addressing System
 * A single URI pointing to each discrete virtual world and functioning as a link between worlds
 * Persistent data references in linked data environments
 * Capability to store URIs/URLs for later access
 * Simple URI sharing with additional users
 
-2. Universal Experience Accessibility
+### Universal Experience Accessibility
 * The "Web of Worlds" should be accessible through any standard browser
 * Sharing of interactive spatial experiences rather than just isolated 3D data assets
 * Web app-controlled user experiences as the dominant delivery model, i.e., use of client data vs. remote rendering
 
-3. Rich Spatial Experiences
+### Rich Spatial Experiences
 * Comprehensive user experiences for spatial data of any composition and size
 * Support for both static and dynamic spatial data composition
 * Capability to handle billions of addressable spatial data states
 * High visual efficiency and fidelity
 
-4. Collaborative Environment
+### Collaborative Environment
 * Seamless shared multi-user and multi-device scenarios
 * Support for mixed and dynamic user and device configurations e.g., desktop, mobile, and immersive devices
 * World-agnostic user identification and data authentication (e.g., SSO)
@@ -50,7 +50,8 @@ We can see examples of this pattern across the Web today in Single-Page Applicat
 
 ## Initial Requirements for Web of Worlds
 
-* We propose the following requirements for the Web of Worlds model:
+We propose the following requirements for the Web of Worlds model:
+
 * Composition of world experiences from multiple assets and endpoints
 * Ability to jump to predefined viewpoints in worlds
 * Creation and sharing of new viewpoints
