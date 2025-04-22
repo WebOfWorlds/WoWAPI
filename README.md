@@ -4,12 +4,12 @@ Building a open, adaptive and connected Metaverse on modern web standards and fe
 
 # Foundation  
 
-The Core Introduction [Core Introduction](https://metaverse-standards.org/#slides) to the [Metaverse Standards Forum](https://metaverse-standards.org) contains on the first slide the following statement that did not change for last years:
+The [Metaverse Standards Forum](https://metaverse-standards.org) is today an essential and fundamental platform for the coordination of Metaverss standards, as it can incorporate coordinated requirements of SDOs, companies and end users. The [Core Introduction](https://metaverse-standards.org/#slides) contains the following statement on the first slide, which has not changed in recent years:
 
 > The metaverse combines the **connectivity of the Web** with the **immersiveness** of **spatial computing**
 
+There is a growing number of [Active Domain Groups](https://metaverse-standards.org/domain-groups/) and one with the focus on [3D Web Interoperability WG](https://metaverse-standards.org/domain-groups/3d-web-interoperability/)
 
-The [MSF 3D Web Interoperability WG](https://metaverse-standards.org/domain-groups/3d-web-interoperability/)
 
 
 A [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
