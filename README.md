@@ -124,6 +124,8 @@ To meet these requirements, we propose the following strategy:
 
 # MSF Use Cases
 
+![objects](specification/figures/usecases.svg)
+
 ## 
 
 
