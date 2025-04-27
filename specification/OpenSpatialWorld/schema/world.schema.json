@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "world.schema.json",
+    "title": "world",
+    "description": "The virtual world aspect model",
+    "type": "object", 
+    "properties": {
+        
+    }    
+}
+  
+  
