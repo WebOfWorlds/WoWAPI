@@ -22,7 +22,7 @@ paths:
           content:
             application/json:             
               schema:
-                $ref: 'schema/world.schema.json'
+                $ref: "#/components/schemas/User"
   /app/id:
     get:
       summary: Delivers an interactive and shared spatial experence in an standard User Agent  
