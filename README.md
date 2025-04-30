@@ -8,9 +8,11 @@ The [Metaverse Standards Forum](https://metaverse-standards.org) is today an ess
 
 > The metaverse combines the **connectivity of the Web** with the **immersiveness** of **spatial computing**
 
-There is a growing number of [Active Domain Groups](https://metaverse-standards.org/domain-groups/) and one with the focus on [3D Web Interoperability WG](https://metaverse-standards.org/domain-groups/3d-web-interoperability/)
+The [3D Web Interoperability WG](https://metaverse-standards.org/domain-groups/3d-web-interoperability/) was founded as one of a growing number of [Active Domain Groups](https://metaverse-standards.org/domain-groups/) to answer this call and enable a open metaverse on the open web platform. 
 
+To coordinate the work, requirements and use-cases, 5 projects would be created, the first project with a core focus on linked experience and data.
 
+> 1. Mechanisms to link and reference virtual worlds and parts thereof
 
 A [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
 
