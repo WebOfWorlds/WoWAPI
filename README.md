@@ -14,7 +14,7 @@ To coordinate the work, requirements and use-cases, 5 projects would be created,
 
 > 1. Mechanisms to link and reference virtual worlds and parts thereof
 
-In 2025 war der erste Blog-Post reporting some of the project results 
+In 2025 there was a blog post about this project with some first results
 
 A [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
 
