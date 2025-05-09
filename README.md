@@ -18,7 +18,7 @@ In 2025 there was a blog post about this project with some first results
 
 A [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
 
-## Web of Wolrds Core Principles
+## Web of Worlds Core Principles
 
 This project to link virtual worlds highlights a compelling analogy between the World Wide Web—a unified system of URL-addressable, interconnected interactive experiences—and what we envision as a cohesive metaverse platform. This platform would consist of numerous addressable and linked spatial experiences, or virtual worlds, collectively forming what we call the “Web of Worlds.” Just as websites create a networked digital ecosystem, these spatial-first experiences would interconnect to create a seamless virtual universe as shown in Figure 1.
 
