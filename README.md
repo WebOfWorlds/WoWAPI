@@ -74,7 +74,7 @@ To meet these requirements, we propose the following strategy:
 * Enable opening the URL in a user agent to join the world as an interactive experience
   * Automatic user ID controlled join/rejoin management
   * Web-App controlled IO/data/pixel flow
-    * e.g., Local data vs remote rendering or even spart streaming
+    * e.g., Local data, remote rendering or even smart and balanced 3D streaming
   * Existing users & views should be addressable
     * e.g., “superverse/395844/user/983”
 
