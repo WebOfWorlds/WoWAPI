@@ -168,27 +168,7 @@ components:
                   
         id: 
           type: number
-      
-                       
-          
 
-#        properties:
-#              active_user_count:
-#              type: integer
-#              description: "Number of active user while requesting"
-#              default: 1
-
-#        uri:
-#          type: string
-#          description: "URL or URN of the resource to prepare."
-
-
-
-#  /webApp:
-#    get:
-
-#  /scene
-#    get:
 
 
 
