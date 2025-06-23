@@ -13,7 +13,17 @@ servers:
     description: dynamic server with dynamic asset refernces
 
 paths:
-  /world:
+  /:
+    get:
+      summery: Provisions a web application to deliver the spatial experience
+      responses:
+        "200": # status code
+          description: "web application"
+          content:
+            text/html:
+              schema:
+                type: string
+  /osw/world:
     get:
       summary: Returns a World status as a single data state 
       responses:
@@ -22,17 +32,8 @@ paths:
           content:
             application/json:             
               schema:
-                $ref: "#/components/schemas/User"
-  /app/id:
-    get:
-      summary: Delivers an interactive and shared spatial experence in an standard User Agent  
-      responses:
-        "200": # status code
-          description: "world summary"
-          content:
-            text/html:    
-              example: string
-  /user/id:
+                $ref: "#/components/schemas/World"    
+  /osw/user/id:
     get:
       summary: Returns a User status  
       responses:
@@ -42,8 +43,7 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/User"
-
-  /view/id:
+  /osw/view/id:
     get:
       summary: Returns a Viewpoint  
       responses:
@@ -52,8 +52,8 @@ paths:
           content:
             application/json:             
               schema:
-                $ref: "#/components/schemas/view"
-  /portal/id:
+                $ref: "#/components/schemas/View"
+  /ows/portal/id:
     get:
       summary: Returns a Portal 
       responses:
@@ -62,8 +62,8 @@ paths:
           content:
             application/json:             
               schema:
-                $ref: "#/components/schemas/portal"                
-  /scene/node/id:
+                $ref: "#/components/schemas/Portal"                
+  /osw/scene/node/id:
     get:
       summary: Returns a World status as a single data state 
       responses:
@@ -82,7 +82,6 @@ components:
     World:
       type: object
       properties:
-
         content:
           type: object
           properties: 
@@ -97,9 +96,7 @@ components:
             version: 
               type: number 
             duration:
-              type: number 
-            
-            
+              type: number           
         presence:
           type: object
           properties:
@@ -109,8 +106,6 @@ components:
               type: string
             gravity:
               type: string
-
-
         technology:
           type: object
           properties:
