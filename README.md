@@ -63,7 +63,7 @@ We propose the following requirements for the Web of Worlds model:
 * Experience consistency, e.g., in view and navigation parameters, units, physics
 * Security, e.g., protection against Man in the Middle attacks
 
-## Opportunity: Building on Web API on the modern web
+## Opportunity: Building a web API on and with the modern web
 
 To meet these requirements, we propose the following strategy:
 
