@@ -1,6 +1,6 @@
 # Hello, Web Of Worlds!
 
-Building an open, adaptive, and interconnected metaverse using modern web standards 🚀
+Building an open, adaptive, and interconnected metaverse using modern web standards and features 🚀
 
 # Foundation
 
