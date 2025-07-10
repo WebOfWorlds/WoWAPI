@@ -4,7 +4,7 @@ Building an open, adaptive, and interconnected metaverse using modern web standa
 
 # Foundation
 
-The [Metaverse Standards Forum](https://metaverse-standards.org) plays a central role in coordinating efforts around Metaverse standards, enabling the integration of requirements from SDOs, companies, and end users. The [Core Introduction](https://metaverse-standards.org/#slides) contains the following statement on the first slide, which has not changed in recent years:
+The [Metaverse Standards Forum](https://metaverse-standards.org) plays a central role in coordinating efforts around Metaverse standards, enabling the integration of requirements from SDOs, companies, and end users. The [MSF Core Introduction](https://metaverse-standards.org/#slides) contains the following statement on the first slide, which has not changed in recent years:
 
 > The metaverse combines the **connectivity of the Web** with the **immersiveness** of **spatial computing**
 
