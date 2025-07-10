@@ -1,4 +1,4 @@
-# Hello, Web Of Worlds!
+# Hello, Web of Worlds!
 
 Building an open, adaptive, and interconnected metaverse using modern web standards and features 🚀
 
