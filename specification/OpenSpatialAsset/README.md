@@ -25,7 +25,7 @@ We expect the data to meet the [RFC2077](https://datatracker.ietf.org/doc/html/r
   - Multidimensional structures
   - Conversion should be structure preserving
  
-Resource specification – Content types
+There is a gowing number of IANA registered model types [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) which enable the multi format support.
 
 | Name | [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) | In domain Links |
 | --- | --- | --- |
