@@ -10,9 +10,6 @@ Core requirements enabled with simple, proven and robust HTTP 1.1 feature plus s
 | Data Change | Essential indication of data change (  [HTTP 1.1, etag](https://datatracker.ietf.org/doc/html/rfc2616#section-14.19) ) |
 | Multi-Formants | Single- und Multi-format requests with and without content negotiation  ( [HTTP 1.1: Content Negotiation](https://datatracker.ietf.org/doc/html/rfc2616#page-71) ) |
 
-## OpenAPI spec 
-
-[API](API.yaml) 
 
 ## IANA [Register](https://www.iana.org/assignments/media-types/media-types.xhtml#model) Model Encoding
 
@@ -42,3 +39,12 @@ Core requirements enabled with simple, proven and robust HTTP 1.1 feature plus s
 | [glExtRef](https://github.com/KhronosGroup/glTF-External-Reference) | 😦 | gltf |
 | [SPZ](https://github.com/nianticlabs/spz) | 😦 | |
 
+## OpenAPI spec 
+
+Source 
+
+[API](API.yaml) 
+
+Preview 
+
+[Preview](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/WebOfWorlds/WoWAPI/refs/heads/main/specification/OpenSpatialAsset/API.yaml)
