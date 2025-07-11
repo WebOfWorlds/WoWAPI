@@ -1,15 +1,14 @@
 # Spatial Asset Provisioning 
 
-Simple, proven and robust HTTP 1.1 feature  
+## Core Requirements and Solutions 
 
-### Data Security
-E2E authorization for data provisioning and validation ( [HTTP 1.1 authentication](https://datatracker.ietf.org/doc/html/rfc2616) + Modern SSO implementation )
+Core requirements enabled with simple, proven and robust HTTP 1.1 feature plus some modern extensions.   
 
-### Data Change
-Essential indication of data change (  [HTTP 1.1, etag](https://datatracker.ietf.org/doc/html/rfc2616#section-14.19) )
-
-### Data Formants
-Single- und Multi-format requests with and without content negotiation  ( [HTTP 1.1: Content Negotiation](https://datatracker.ietf.org/doc/html/rfc2616#page-71) )
+| Requirements | Solution |
+| --- | --- | 
+| Data Security | E2E authorization for data provisioning and validation ( [HTTP 1.1 authentication](https://datatracker.ietf.org/doc/html/rfc2616) + Modern SSO implementation ) |
+| Data Change | Essential indication of data change (  [HTTP 1.1, etag](https://datatracker.ietf.org/doc/html/rfc2616#section-14.19) ) |
+| Multi-Formants | Single- und Multi-format requests with and without content negotiation  ( [HTTP 1.1: Content Negotiation](https://datatracker.ietf.org/doc/html/rfc2616#page-71) ) |
 
 ## OpenAPI spec 
 
