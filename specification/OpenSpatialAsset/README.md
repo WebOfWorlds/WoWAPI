@@ -8,10 +8,24 @@ Core requirements enabled with simple, proven and robust HTTP 1.1 feature plus s
 | --- | --- | 
 | Data Security | E2E authorization for data provisioning and validation ( [HTTP 1.1 authentication](https://datatracker.ietf.org/doc/html/rfc2616) + Modern SSO implementation ) |
 | Data Change | Essential indication of data change (  [HTTP 1.1, etag](https://datatracker.ietf.org/doc/html/rfc2616#section-14.19) ) |
-| Multi-Formants | Single- und Multi-format requests with and without content negotiation  ( [HTTP 1.1: Content Negotiation](https://datatracker.ietf.org/doc/html/rfc2616#page-71) ) |
+| Multi-format | Single- und Multi-format requests with and without content negotiation  ( [HTTP 1.1: Content Negotiation](https://datatracker.ietf.org/doc/html/rfc2616#page-71) ) |
 
+## Model Format definition
 
-## IANA [Register](https://www.iana.org/assignments/media-types/media-types.xhtml#model) Model Encoding
+We expect the data to meet the [RFC2077](https://datatracker.ietf.org/doc/html/rfc2077) model definition 
+
+- Orthogonal space
+  - Orthogonal system
+  - Spatial (3 or more) and temporal dimensions
+- Model structure
+  - Models are composed of Objects
+  - Objects are instantiated/transformed elements
+  - Elements are local or extern linked data with aggregatio sematic (e.g. referencing a VRML and IGES )
+- Structured Data 
+  - Multidimensional structures
+  - Conversion should be structure preserving
+ 
+Resource specification – Content types
 
 | Name | [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) | In domain Links |
 | --- | --- | --- |
