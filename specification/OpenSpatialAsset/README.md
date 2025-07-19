@@ -2,7 +2,7 @@
 
 ## Core Requirements and Feature   
 
-Core requirements enabled with simple, proven and robust HTTP 1.1 feature plus some modern extensions.   
+Core requirements enabled with simple, proven and robust [HTTP 1.1](https://datatracker.ietf.org/doc/html/rfc2616) feature plus some modern extensions.   
 
 | Requirements | Feature |
 | --- | --- | 
@@ -12,20 +12,20 @@ Core requirements enabled with simple, proven and robust HTTP 1.1 feature plus s
 
 ## Model Format definition
 
-We expect the data to meet the [RFC2077](https://datatracker.ietf.org/doc/html/rfc2077) model definition 
+We expect the data to comply with the [RFC2077](https://datatracker.ietf.org/doc/html/rfc2077) model definition 
 
-- Orthogonal space
+- **Orthogonal space**
   - Orthogonal system
   - Spatial (3 or more) and temporal dimensions
-- Model structure
+- **Model structure**
   - Models are composed of Objects
   - Objects are instantiated/transformed elements
   - Elements are local or extern linked data with aggregatio sematic (e.g. referencing a VRML and IGES )
-- Structured Data 
+- **Structured Data** 
   - Multidimensional structures
   - Conversion should be structure preserving
  
-There is a gowing number of IANA registered model types [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) which enable the multi format support.
+There is a gowing number of [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) for model types which enable the multi format support.
 
 | Name | [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) | In domain Links |
 | --- | --- | --- |
