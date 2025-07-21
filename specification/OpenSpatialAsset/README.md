@@ -10,7 +10,7 @@ Core requirements enabled with simple, proven and robust [HTTP 1.1](https://data
 | Data Change | Essential indication of data change (  [HTTP 1.1, etag](https://datatracker.ietf.org/doc/html/rfc2616#section-14.19) ) |
 | Multi-format | Single- und Multi-format requests with and without content negotiation  ( [HTTP 1.1: Content Negotiation](https://datatracker.ietf.org/doc/html/rfc2616#page-71) ) |
 
-## Model Format definition
+### Model type definition
 
 We expect the data to comply with the [RFC2077](https://datatracker.ietf.org/doc/html/rfc2077) model definition 
 
@@ -24,7 +24,9 @@ We expect the data to comply with the [RFC2077](https://datatracker.ietf.org/doc
 - **Structured Data** 
   - Multidimensional structures
   - Conversion should be structure preserving
- 
+
+### Model type registration 
+
 There is a gowing number of [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) for model types which enable the multi format support.
 
 | Name | [IANA Registration](https://www.iana.org/assignments/media-types/media-types.xhtml#model) | In domain Links |
@@ -53,12 +55,40 @@ There is a gowing number of [IANA Registration](https://www.iana.org/assignments
 | [glExtRef](https://github.com/KhronosGroup/glTF-External-Reference) | 😦 | gltf |
 | [SPZ](https://github.com/nianticlabs/spz) | 😦 | |
 
+## Optional Feature 
+
+The following API feature are option and only provided in some implementation 
+
+### Additon asset aspects 
+
+Additional information provided in a separate data package
+
+- Generator
+- Copyright
+- etag
+- Formats
+- 3D volume
+- GeoPose
+
+### Data Fragment adresssing
+
+Links inside the (model) domain and fragments of data. URI Fragment standards allow to address sub-data
+
+- [W3C Media Frment URI](https://www.w3.org/TR/media-frags/): Spatially-, temporally- and structure-based addressing schema
+  - example.com/media/movie.mpg#xywh=100,100,10,10&t=10,20
+  - example.com/media/movie.mpg#id=cap
+
+- **Open Opportunity**: Missing “Model Fragment URI”: Spatially-, temporally- and structure-based addressing
+	- example.com/model/434/#xyzwhz=100,100,100,20,20,20&t=10,20
+   - example.com/model/434/#include=node.tire
+
+
 ## OpenAPI spec 
 
-Source 
+### Source 
 
 [API](API.yaml) 
 
-Preview 
+### Preview 
 
 [Preview](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/WebOfWorlds/WoWAPI/refs/heads/main/specification/OpenSpatialAsset/API.yaml)
