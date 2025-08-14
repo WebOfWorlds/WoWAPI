@@ -4,7 +4,7 @@
 
 ## Core Requirements and Feature   
 
-Open continuous spatial experience and session for a given device and User-Agent (US) 
+Open continuous spatial experience and session for a given device and User-Agent/browser (UA) 
 
 | Requirements | Feature | Description |
 | --- | --- | --- | 
