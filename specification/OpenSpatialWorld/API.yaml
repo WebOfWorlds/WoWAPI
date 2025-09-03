@@ -15,7 +15,7 @@ servers:
 paths:
   /:
     get:
-      summery: Provisions a web application to deliver the spatial experience
+      summary: Provisions a web application to deliver the spatial experience
       responses:
         "200": # status code
           description: "web application"
@@ -96,7 +96,28 @@ components:
             version: 
               type: number 
             duration:
-              type: number           
+              type: number        
+        geoPose:
+          type: object
+          properties:
+            position:
+              type: object
+              properties:
+                lat: 
+                  type: number
+                lan:
+                  type: number
+                h:
+                  type: number
+            angles:
+              type: object
+              properties:
+                yaw:
+                  type: number
+                pitch:
+                  type: number
+                roll:
+                  type: number
         presence:
           type: object
           properties:
@@ -147,6 +168,30 @@ components:
 
         id: 
           type: number
+        name: 
+          type: string  
+            
+        geoPose:
+          type: object
+          properties:
+            position:
+              type: object
+              properties:
+                lat: 
+                  type: number
+                lan:
+                  type: number
+                h:
+                  type: number
+            angles:
+              type: object
+              properties:
+                yaw:
+                  type: number
+                pitch:
+                  type: number
+                roll:
+                  type: number      
 
     View: 
       type: object
@@ -155,12 +200,56 @@ components:
         id: 
           type: number
 
+        geoPose:
+          type: object
+          properties:
+            position:
+              type: object
+              properties:
+                lat: 
+                  type: number
+                lan:
+                  type: number
+                h:
+                  type: number
+            angles:
+              type: object
+              properties:
+                yaw:
+                  type: number
+                pitch:
+                  type: number
+                roll:
+                  type: number      
+
     Portal: 
       type: object
       properties:
             
         id: 
           type: number
+
+        geoPose:
+          type: object
+          properties:
+            position:
+              type: object
+              properties:
+                lat: 
+                  type: number
+                lan:
+                  type: number
+                h:
+                  type: number
+            angles:
+              type: object
+              properties:
+                yaw:
+                  type: number
+                pitch:
+                  type: number
+                roll:
+                  type: number      
 
     Node: 
       type: object
