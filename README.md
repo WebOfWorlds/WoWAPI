@@ -16,7 +16,14 @@ Five coordinated projects were launched, starting with one focused on linking vi
 
 In 2025, a blog post highlighted early outcomes of this project.
 
-A [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
+## Initial Blog Post 
+
+[Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
+
+## Ongoing Slide set update
+
+[MSF Project slides](https://docs.google.com/presentation/d/e/2PACX-1vRXc7AF4NbHHJYYgSdOyCqVAfDF-PUA49jOmUXdDucMFBB9WVquD-uIiieC6ISvLSmKNa4j6RCL_RsN/pub?start=true&loop=false&slide=id.g15127d92311_2_114)
+
 
 ## Core Principles of the Web of Worlds
 
