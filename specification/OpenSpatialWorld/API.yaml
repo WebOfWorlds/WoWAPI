@@ -23,7 +23,7 @@ paths:
             text/html:
               schema:
                 type: string
-  /osw/world:
+  /wow/world:
     get:
       summary: Returns a World status as a single data state 
       responses:
@@ -33,7 +33,7 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/World"    
-  /osw/user/id:
+  /wow/user/id:
     get:
       summary: Returns a User status  
       responses:
@@ -43,7 +43,7 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/User"
-  /osw/view/id:
+  /wow/view/id:
     get:
       summary: Returns a Viewpoint  
       responses:
@@ -53,7 +53,7 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/View"
-  /ows/portal/id:
+  /wow/portal/id:
     get:
       summary: Returns a Portal 
       responses:
@@ -63,7 +63,7 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/Portal"                
-  /osw/scene/node/id:
+  /wow/scene/node/id:
     get:
       summary: Returns a World status as a single data state 
       responses:
