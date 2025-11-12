@@ -22,7 +22,7 @@ Additional information provided in separate data package
   - URL/wow/world
 
 - Read and write aspects of the world to enable links to sub-elements of the world (e.g user avatar)
-  - URL/wow/user/joe
+  - URL/wow/user/4182
 
 - Expose parts of scene to be linked in external world 		
   - URL/wow/scene/
