@@ -12,9 +12,13 @@ servers:
     description: dynamic server with dynamic asset refernces
 
 paths:
+
+#--- Web APP ---
   /:
     get:
-      summary: Provisions a web application to deliver the spatial experience
+      tags:
+        - web app
+      summary: Provisions a web application to deliver the spatial experience in the given device 
       responses:
         "200": # status code
           description: "web application"
@@ -22,8 +26,12 @@ paths:
             text/html:
               schema:
                 type: string
+
+#--- World ---
   /wow/world:
     get:
+      tags:
+        - world
       summary: Returns a World status as a single data state 
       responses:
         "200": # status code
@@ -32,8 +40,12 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/World"    
+
+#--- User ---
   /wow/user/{userId}:
     get:
+      tags:
+        - user
       summary: Returns a User status  
       parameters:
         - name: userId
@@ -49,8 +61,30 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/User"
+    delete:
+      tags:
+        - user
+      summary: Deletes a user
+      parameters:
+        - name: userId
+          in: path
+          description: user id to delete
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: User deleted
+        '400':
+          description: Invalid user value
+        default:
+          description: Unexpected error
+
+#--- View ---
   /wow/view/{viewId}:
     get:
+      tags: 
+        - view
       summary: Returns a Viewpoint status 
       parameters:
         - name: viewId
@@ -66,8 +100,12 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/View"
+
+#--- Portal ---
   /wow/portal/{portalId}:
     get:
+      tags: 
+        - portal
       summary: Returns a Portal status
       parameters:
         - name: portalId
@@ -82,9 +120,13 @@ paths:
           content:
             application/json:             
               schema:
-                $ref: "#/components/schemas/Portal"                
+                $ref: "#/components/schemas/Portal"        
+
+#--- Asset Instance Graph         
   /wow/scene/node/{nodeId}:
     get:
+      tags: 
+        - Asset Instance Graph 
       summary: Returns a single Node status as a single data state 
       parameters:
         - name: nodeId
@@ -100,7 +142,60 @@ paths:
             application/json:             
               schema:
                 $ref: "#/components/schemas/Node"    
-  
+    put:
+      tags:
+        - Asset Instance Graph
+      summary: Update an existing node.
+      description: Update an existing node by Id.
+      requestBody:
+        description: Update an existent node 
+        content:
+          application/json:
+            schema:
+                $ref: "#/components/schemas/Node"    
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Node"    
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: node not found
+        '422':
+          description: Validation exception
+        default:
+          description: Unexpected error
+      security:
+        - petstore_auth:
+            - write:pets
+            - read:pets
+    delete:
+      tags:
+        - Asset Instance Graph
+      summary: Deletes a node
+      parameters:
+        - name: nodeid
+          in: path
+          description: node id to delete
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: node deleted
+        '400':
+          description: Invalid node value
+        default:
+          description: Unexpected error
+
+#------------------   
+#--- Components ---
+#------------------
+
 components:
   schemas:
     World:
