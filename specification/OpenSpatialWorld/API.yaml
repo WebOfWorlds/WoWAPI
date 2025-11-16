@@ -124,6 +124,30 @@ paths:
 
 #--- Asset Instance Graph         
   /wow/scene/node/{nodeId}:
+
+    post:
+      tags:
+        - Asset Instance Graph
+      summary: Create and add new nodes from a node array.
+      requestBody:
+        description: Created and add single node
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: "#/components/schemas/Node"    
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Node'
+        default:
+          description: Unexpected error
     get:
       tags: 
         - Asset Instance Graph 
@@ -169,10 +193,6 @@ paths:
           description: Validation exception
         default:
           description: Unexpected error
-      security:
-        - petstore_auth:
-            - write:pets
-            - read:pets
     delete:
       tags:
         - Asset Instance Graph
