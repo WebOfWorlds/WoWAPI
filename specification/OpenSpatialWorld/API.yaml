@@ -127,7 +127,7 @@ paths:
 
     post:
       tags:
-        - Asset Compsition Graph
+        - Asset Composition Graph
       summary: Create and add new nodes from a node array.
       requestBody:
         description: Created and add single node
@@ -150,7 +150,7 @@ paths:
           description: Unexpected error
     get:
       tags: 
-        - Asset Compsition Graph 
+        - Asset Composition Graph 
       summary: Returns a single Node status as a single data state 
       parameters:
         - name: nodeId
@@ -168,7 +168,7 @@ paths:
                 $ref: "#/components/schemas/Node"    
     put:
       tags:
-        - Asset Compsition Graph
+        - Asset Composition Graph
       summary: Update an existing node.
       description: Update an existing node by Id.
       requestBody:
@@ -195,7 +195,7 @@ paths:
           description: Unexpected error
     delete:
       tags:
-        - Asset Compsition Graph
+        - Asset Composition Graph
       summary: Deletes a node
       parameters:
         - name: nodeid
