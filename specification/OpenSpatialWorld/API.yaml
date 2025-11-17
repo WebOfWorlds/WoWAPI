@@ -1,6 +1,6 @@
 openapi: '3.0.4'
 info:
-  title: OpenSpatailWorld API
+  title: OpenSpatialWorld API
   description: "The solution allows you to use a web app to enter the associated spatial experience and read and modify aspects of the world. 
     The endpoint provides a single discrete world with some aspects of spatial data management. The main purpose is to join, connect and share the spatial world."
   version: '0.0.1'
@@ -129,6 +129,13 @@ paths:
       tags:
         - Asset Composition Graph
       summary: Create and add new nodes from a node array.
+      parameters:
+        - name: nodeId
+          in: path
+          description: ID of existing parent node
+          required: true
+          schema:
+            type: integer
       requestBody:
         description: Created and add single node
         content:
@@ -170,7 +177,13 @@ paths:
       tags:
         - Asset Composition Graph
       summary: Update an existing node.
-      description: Update an existing node by Id.
+      parameters:
+        - name: nodeId
+          in: path
+          description: ID of existing parent node
+          required: true
+          schema:
+            type: integer
       requestBody:
         description: Update an existent node 
         content:
