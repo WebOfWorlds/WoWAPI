@@ -304,12 +304,12 @@ components:
     User: 
       type: object
       properties:
-
         id: 
           type: number
         name: 
           type: string  
-            
+        AvatarURI:
+          type: string
         geoPose:
           type: object
           properties:
@@ -335,10 +335,8 @@ components:
     View: 
       type: object
       properties:
-      
         id: 
           type: number
-
         geoPose:
           type: object
           properties:
