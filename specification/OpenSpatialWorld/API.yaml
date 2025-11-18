@@ -18,7 +18,7 @@ paths:
     get:
       tags:
         - web app
-      summary: Provisions a web application to deliver the spatial experience in the given device 
+      summary: Provisions a web application to deliver the spatial experience on the given device 
       responses:
         "200": # status code
           description: "web application"
