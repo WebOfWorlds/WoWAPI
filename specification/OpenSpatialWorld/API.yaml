@@ -122,12 +122,12 @@ paths:
               schema:
                 $ref: "#/components/schemas/Portal"        
 
-#--- Asset Composition Graph         
+#--- Spatial Composition Graph         
   /wow/scene/node/{nodeId}:
 
     post:
       tags:
-        - Asset Composition Graph
+        - Spatial Composition Graph
       summary: Create and add new nodes from a node array.
       parameters:
         - name: nodeId
@@ -157,7 +157,7 @@ paths:
           description: Unexpected error
     get:
       tags: 
-        - Asset Composition Graph 
+        - Spatial Composition Graph 
       summary: Returns a single Node status as a single data state 
       parameters:
         - name: nodeId
@@ -175,7 +175,7 @@ paths:
                 $ref: "#/components/schemas/Node"    
     put:
       tags:
-        - Asset Composition Graph
+        - Spatial Composition Graph
       summary: Update an existing node.
       parameters:
         - name: nodeId
@@ -208,7 +208,7 @@ paths:
           description: Unexpected error
     delete:
       tags:
-        - Asset Composition Graph
+        - Spatial Composition Graph
       summary: Deletes a node
       parameters:
         - name: nodeid
@@ -417,7 +417,7 @@ components:
         children:
           type: array
           items:
-            type: integer
+            type: object
         localTransform:
           type: array 
           items:
