@@ -120,7 +120,7 @@ To meet these requirements, we propose the following strategy:
 
 ## Open Spatial Asset API
 
-| Name | License | Format | 
+| Name | License | Spatial Asset Formats | 
 | --- | --- | --- |
 | [RapidPipeline](https://rapidpipeline.com) | Commercial | gltf-binary, gltf+json, vnd.usda, vnd.usdz+zip, x3d+xml |
 | [Sketchfab](https://sketchfab.com) | Commercial | gltf-binary, gltf+json, vnd.usda, vnd.usdz+zip |
