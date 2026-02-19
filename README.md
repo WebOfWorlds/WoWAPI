@@ -111,7 +111,7 @@ To meet these requirements, we propose the following strategy:
 
 | Name | License | Level | Spatial Asset Formats |  
 | --- | --- | --- | --- | 
-| x3domWorld | Free | 5  | gltf-binary, gltf+json, x3d+xml |
+| simpleWorld | Free | 5  | gltf-binary, gltf+json, x3d+xml |
 | [threedy.io](https://www.threedy.io) | Commercial | 5 | e57, gltf-binary, gltf+json, JT, step, step+xml, step+zip, step-xml+zip, step-xml+zip, vnd.usda, vnd.usdz+zip, x3d-vrml, x3d+fastinfoset, x3d+xml, las |
 | HTMLModeWrapper | Free | 3  | vnd.usdz+zip |
 | CesiumWrapper | Free | 2 |
