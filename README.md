@@ -35,7 +35,7 @@ We envision a novel and open architecture that builds upon OWP principles and st
 ![Web Of Worlds](specification/figures/wow.svg)
 
 ### The Spatial Worlds
-The world is not a single data state or file, but several local aspects that are linked with each other and can be accessed via the same API endpoint.
+The world is not a single data state or document, but several persistent aspects that are linked with each other and can be accessed via the same API endpoint.
 
 * Web-applications to deliver a spatial experience on a new or known physical device 
 * Users to handle active and passive aspects 
