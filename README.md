@@ -1,6 +1,6 @@
 # Hello, Web of Worlds!
 
-Building an open, interconnected and decentralized metaverse using modern web standards and features 🚀
+Enabling an open, decentralized and efficient Metaverse on the Open Web Platform 🚀
 
 # Foundation
 
@@ -19,6 +19,10 @@ In 2025, a blog post highlighted early outcomes of this project.
 ## Initial Blog Post 
 
 [Linked Spatial Experiences: The Web of Worlds](https://metaverse-standards.org/news/blog/linked-spatial-experiences-the-web-of-worlds/)
+
+## Initial MSF White Paper  
+
+[The Web of Worlds (WoW) Whitepapez](https://webofworlds.github.io/initial_MSF_Whitepaper/gen/MSF-3DWebInterop_WoWWhitepaper.pdf)
 
 ## Ongoing Slide set update
 
