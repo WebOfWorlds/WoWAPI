@@ -44,7 +44,9 @@ The world is not a single data state or file, but several local aspects that are
 
 
 
-# Proposaled architecture 
+# Proposaed architecture 
+
+![objects](specification/figures/architecture.svg)
 
 ![objects](specification/figures/objects.svg)
 
