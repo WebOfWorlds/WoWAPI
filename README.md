@@ -22,7 +22,7 @@ In 2025, a blog post highlighted early outcomes of this project.
 
 ## Initial MSF White Paper  
 
-[The Web of Worlds (WoW) Whitepapez](https://webofworlds.github.io/initial_MSF_Whitepaper/gen/MSF-3DWebInterop_WoWWhitepaper.pdf)
+[The Web of Worlds (WoW) Whitepaper](https://webofworlds.github.io/initial_MSF_Whitepaper/gen/MSF-3DWebInterop_WoWWhitepaper.pdf)
 
 ## Ongoing Slide set update
 
