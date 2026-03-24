@@ -34,17 +34,29 @@ We envision a novel and open architecture that builds upon OWP principles and st
 
 ![Web Of Worlds](specification/figures/wow.svg)
 
-The Spatial Worlds
+### The Spatial Worlds
 The world is not a single data state or file, but several local aspects that are linked with each other and can be accessed via the same API endpoint.
-•	Web-applications to deliver a spatial experience on a new or known physical device 
-•	Users to handle active and passive aspects 
-•	Views to expose a viewing pose or camera to the consumer  
-•	Portals stores links to external and independent world instance  
-•	Spatial Composition Graph hieratical structure to manage any number of spatial assets links
 
+* Web-applications to deliver a spatial experience on a new or known physical device 
+* Users to handle active and passive aspects 
+* Views to expose a viewing pose or camera to the consumer  
+* Portals stores links to external and independent world instance  
+* Spatial Composition Graph hieratical structure to manage any number of spatial assets links
 
+### The User Manifest
+Users must be able to move between virtual worlds, carrying with them their digital identity, with full control over how their data is used, when it is used, and how much of it is shared. 
 
-# Proposaed architecture 
+It is envisioned to use existing technology and standards that will provide the security (including anonymity), interoperability and transportability required for a User to carry and use their data safely with Virtual Worlds.
+
+* User Digital Wallet
+* User Manifest
+* Decentralized Storage
+ 
+ ### The Spatial Asset
+
+Our objective is not to introduce or create a new data format, but rather to leverage existing **standards as spatial assets within the virtual world**. The RFC2077 standard and its associated model content registrations have formed a robust foundation on the existing web for many years. We anticipate that the USD-, GLTF-, and X3D-families of formats, which are already registered, will play a crucial role in various use cases. What is significant here is that we not only transfer and provide data using HTTP/S, but we also aim to utilize generic and harmonized DID resolvers to facilitate Asset links within wallets and related structures  
+
+# Proposed architecture 
 
 ![objects](specification/figures/architecture.svg)
 
