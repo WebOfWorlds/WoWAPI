@@ -1,1 +1,1 @@
-# World and Data API
+# Worl, Data & Manifest API
