@@ -52,16 +52,12 @@ components:
         content:
           type: object
           properties: 
-            label:
+            name:
               type: string
-            age_restriction:
+            age:
               type: number
-            license:
-              type: string
-            cost: 
-              type: string 
-            version: 
-              type: number     
+            avatarAssetURI:
+                type: string     
 
 tags:
   - name: Authorize
