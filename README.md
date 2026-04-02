@@ -26,7 +26,7 @@ In 2025, a blog post highlighted early outcomes of this project.
 
 ## MSF White Paper, 2026-03-31  
 
-[The Web of Worlds (WoW) Whitepaper](https://webofworlds.github.io/initial_MSF_Whitepaper/gen/MSF-3DWebInterop_WoWWhitepaper.pdf)
+[The Web of Worlds (WoW) Whitepaper](https://webofworlds.github.io/initial_MSF_Whitepaper)
 
 ## Core Principles from the white paper 
 
