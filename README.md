@@ -66,6 +66,12 @@ Our objective is not to introduce or create a new data format, but rather to lev
 
 [OpenSpatialWorld API](specification/OpenSpatialWorld)
 
+## Open User Manifest API
+
+[OpenUserManifest API](specification/OpenUserManifest)
+
+# Implementations
+
 ## Open Spatial Asset API
 
 [OpenSpatialAsset API](specification/OpenSpatialAsset)
