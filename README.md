@@ -96,21 +96,3 @@ Our objective is not to introduce or create a new data format, but rather to lev
 | [RapidPipeline](https://rapidpipeline.com) | Commercial | gltf-binary, gltf+json, vnd.usda, vnd.usdz+zip, x3d+xml |
 | [Sketchfab](https://sketchfab.com) | Commercial | gltf-binary, gltf+json, vnd.usda, vnd.usdz+zip |
 
-# Live Demo Worlds
-
-| Name | Endpoint | API Level |
-| --- | --- | --- |
-| hello world | [testWorld.WebOfWorlds.io](https://testWorld.OpenSpatialWorld.io) | 3 | 
-| open portal | [openPortal.WebOfWorlds.io](https://testWorld.OpenSpatialWorld.io) | 5 | 
-| threedy industrial Metaverse Use-Case | [threedy.space/msf/60394sdf6](http://threedy.space/ms/60394sdf6) | 5 | 
-
-# MSF Use Cases
-
-![objects](specification/figures/usecases.svg)
-
-## 
-
-
-
-
-# Standardization
